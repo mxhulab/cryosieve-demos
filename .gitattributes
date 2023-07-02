@@ -1,1 +1,8 @@
+toy/CNG_A.mrc filter=lfs diff=lfs merge=lfs -text
+toy/CNG_B.mrc filter=lfs diff=lfs merge=lfs -text
+toy/CNG_mask.mrc filter=lfs diff=lfs merge=lfs -text
+toy/CNG_particles.mrcs filter=lfs diff=lfs merge=lfs -text
+toy/expect_result/output_CNG.star filter=lfs diff=lfs merge=lfs -text
+toy/expect_result/output_CNG_sieved.star filter=lfs diff=lfs merge=lfs -text
+toy/CNG.star filter=lfs diff=lfs merge=lfs -text
 *.mrcs filter=lfs diff=lfs merge=lfs -text
