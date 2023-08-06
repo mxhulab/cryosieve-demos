@@ -1,0 +1,5 @@
+# EMPIAR-10097
+
+We encourage you to access and download the dataset named "TRPM8 bound to calcium, processed stack from final reconstruction" [(EMPIAR-10097)](https://www.ebi.ac.uk/empiar/EMPIAR-10097/) from the EMPIAR database. For optimal results, we advise focusing on the final stack specifically: `T40_HA_130K-Equalized-Particle-Stack.mrcs` and `T40_HA_130K-Equalized_run-data.star`. `T40_HA_130K-Equalized_run-data_CryoSPARC_refined.star` was refined from `T40_HA_130K-Equalized_run-data.star` using CryoSPARC to mitigate the effects brought about by advancements in angle estimation techniques.
+
+This scenario exemplifies the utilization of `cryosieve`. The case in point is configured to use the SLURM job manager system, leveraging 4 GPUs within a single node. Please note that you have the flexibility to modify the operational method to match your particular execution environment. Bear in mind, however, that to run `cryosieve`, the presence of Relion executables is mandatory.
