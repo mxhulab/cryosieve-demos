@@ -1,0 +1,9 @@
+Processing subset 0.
+There are 21761 particles.
+17409 particles remained.
+
+Processing subset 1.
+There are 21824 particles.
+17409 particles remained.
+
+[Processes completed successfully in 103.97s.][SINGLE-GPU CRYOSIEVE-CORE DONE.]
