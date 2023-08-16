@@ -1,0 +1,23 @@
+== Reading input half-reconstructions: 
+  + half1-map:                     output_11120/_iter0_half1.mrc
+  + half2-map:                     output_11120/_iter0_half2.mrc
+ + --mtf_angpix was not provided, assuming pixel size in raw micrographs is the same as in particles, 0.644 A/px.
+== Using a user-provided mask ... 
+  + input mask:                    11120_mask.mrc
+  + fraction f (solvent mask based): 50.4621
+  + molecular weight inside protein mask: 183493
+== Masking input maps ...
+  + randomize phases beyond:       12.544 Angstroms
+== Applying sqrt(2*FSC/(FSC+1)) weighting (as in Rosenthal & Henderson, 2003) ...
+== Fitting straight line through Guinier plot to find B-factor ...
+  + fit from resolution:           10
+  + fit until resolution:          0
+  + slope of fit:                  -11.6705
+  + intercept of fit:              -14.5199
+  + correlation of fit:            0.684675
+  + apply b-factor of:             -46.6819
+== Writing output files ...
+  + Processed map:                 output_11120/_postprocess_iter0/iter0.mrc
+  + Processed masked map:          output_11120/_postprocess_iter0/iter0_masked.mrc
+  + Metadata file:                 output_11120/_postprocess_iter0/iter0.star
+  + FINAL RESOLUTION:              3.24171
