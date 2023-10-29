@@ -13,5 +13,5 @@ export PATH=REPLACE_IT_WITH_YOUR_MPI_BINARY_PATH:$PATH
 export LD_LIBRARY_PATH=REPLACE_IT_WITH_YOUR_MPI_LIBRARY_PATH:$LD_LIBRARY_PATH
 
 source activate CRYOSIEVE_ENV
-srun -o output_mpi.txt cryosieve --reconstruct_software "mpirun -n 5 relion_reconstruct_mpi" --postprocess_software relion_postprocess --i T40_HA_130K-Equalized_run-data_CryoSPARC_refined.star --o output/ --mask mask.mrc --angpix 1.3099979 --num_iters 10 --frequency_start 40 --frequency_end 3 --retention_ratio 0.8 --sym C3 --num_gpus 1 --balance
+srun -o output_mpi.txt cryosieve --reconstruct_software "mpirun -n 5 relion_reconstruct_mpi" --postprocess_software relion_postprocess --i pfCRT_CryoSPARC_refined.star --o output/ --mask mask.mrc --angpix 1.035 --num_iters 10 --frequency_start 35 --frequency_end 3 --retention_ratio 0.8 --sym C1 --num_gpus 4 --balance
 grep "+ FINAL RESOLUTION:" output/_postprocess*.txt
