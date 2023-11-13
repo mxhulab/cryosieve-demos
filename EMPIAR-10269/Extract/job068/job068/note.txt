@@ -1,0 +1,6 @@
+
+ ++++ Executing new job on Fri Nov 10 22:43:01 2017
+ ++++ with the following command(s): 
+`which relion_preprocess_mpi` --i Import/job001/good_ctf.star --reextract_data_star ./Select/job065/particles.star --recenter --part_star Extract/job068/particles.star --part_dir Extract/job068/ --extract --extract_size 128 --norm --bg_radius 42 --white_dust 5 --black_dust 5 --invert_contrast  --set_angpix 1.053 
+echo Import/job001/good_ctf.star > Extract/job068/coords_suffix_extract.star
+ ++++ 

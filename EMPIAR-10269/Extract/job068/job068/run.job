@@ -1,0 +1,31 @@
+job_type == 5
+is_continue == false
+Pixel size (A) == 1.053
+Diameter background circle (pix):  == 85
+Stddev for black dust removal:  == 5
+Input coordinates:  == 
+Cut helical tubes into segments? == Yes
+Coordinates are start-end only? == Yes
+Extract helical segments? == No
+Invert contrast? == Yes
+Normalize particles? == Yes
+Submit to queue? == No
+Re-center refined coordinates?  == Yes
+OR re-extract refined particles?  == Yes
+Rescale particles? == No
+Manually set pixel size?  == Yes
+Particle box size (pix): == 128
+Refined particles STAR file:  == ./Select/job065/particles.star
+Use bimodal angular priors? == Yes
+Number of asymmetrical units: == 1
+Helical rise (A): == 1
+Tube diameter (A):  == 200
+Minimum dedicated cores per node: == 1
+Number of MPI procs: == 3
+Additional arguments: == 
+Queue submit command: == qsub
+Standard submission script: == ˆÑù
+Queue name:  == openmpi
+Re-scaled size (pixels):  == 48
+micrograph STAR file:  == Import/job001/good_ctf.star
+Stddev for white dust removal:  == 5
