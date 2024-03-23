@@ -1,0 +1,2 @@
+mask.mrc filter=lfs diff=lfs merge=lfs -text
+initial.mrc filter=lfs diff=lfs merge=lfs -text
